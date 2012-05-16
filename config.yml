@@ -1,0 +1,9 @@
+# Strings For The Plugin
+# For information on S-Area check out http://dev.bukkit.org/server-mods/noadminkick
+Strings:
+  AdminJoined: '&2An admin has joined the game'
+  NoAdmin: '&4There are no Admins on. Please come back later when an Admin is on.'
+  AllGone: '&4All admins have left the game. Once you leave, You cannot join again until another admin joins.'
+  NoPerm: '&4You do not have permission to do that.'
+  InvalidParams: '&4This command does not accept that number of paramaters.'
+S-Area: false  

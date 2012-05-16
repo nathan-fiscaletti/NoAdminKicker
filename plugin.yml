@@ -1,0 +1,36 @@
+name: NoAdminKick
+main: me.thefiscster510.noadminkick.Main
+version: 3.0
+description: >
+             Kicks other players if there is no admin on
+commands:
+  addadmin:
+    description: Add an admin to the admin list
+  deladmin:
+    description: Removes an admin from the admin list
+  adminon:
+    description: Changes the internal variable
+  onlineadmins:
+    description: Gives a list of all onine admins
+  adminlist:
+    description: Gives you a list of all admins in Admins.yml
+  admintool:
+    description: Tool for S-Area
+  asz:
+    description: Creates the area selected with the admin tool
+  s-spawn:
+    description: Sends a player to sspawn.
+  set-s-spawn:
+    desctiption: Sets the sspawn
+permissions:
+  noadminkicker.*:
+    description: All permissions
+    children:
+      noadminkicker.addadmin: true
+      noadminkicker.deladmin: true
+      noadminkicker.exempt: true
+      noadminkicker.isadmin: true
+      noadminkicker.onlineadmins: true
+      noadminkicker.adminlist: true
+      noadminkicker.admintool: true
+      noadminkicker.spawn: true
