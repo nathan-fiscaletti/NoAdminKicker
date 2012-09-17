@@ -204,8 +204,9 @@ public class Main extends JavaPlugin{
 							 ret = ret + ", " + p.getDisplayName();
 						 }
 					 }
-					 pmessage(player, ret);
+					 
 				 }
+				 pmessage(player, ret);
 				}else{
 					
 				}
@@ -234,7 +235,7 @@ public class Main extends JavaPlugin{
 						 if(ret.equalsIgnoreCase("")){
 							 ret = "&2Admins: &f" + st;
 						 }else{
-							 ret = ret + st;
+							 ret = ret + ", " + st;
 						 }
 					 }
 					 pmessage(player, ret);
@@ -334,7 +335,6 @@ public class Main extends JavaPlugin{
 			 }
 			 
 		 }
-		 
 		 
 		 return true;
 	 }

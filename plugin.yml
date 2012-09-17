@@ -1,6 +1,6 @@
 name: NoAdminKick
 main: me.thefiscster510.noadminkick.Main
-version: 3.0
+version: 3.5
 description: >
              Kicks other players if there is no admin on
 commands:
